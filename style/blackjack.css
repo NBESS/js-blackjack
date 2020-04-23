@@ -3,9 +3,38 @@
     flex-direction: column;
     border: 2px solid black;
     background-color: green;
-    height: 20vw;
+    height: 50vw;
     margin: 5% 25%;
     border-radius: 8px;
     padding: 20px;
     
+}
+
+#dealer-hand,
+#player-hand {
+    width: 90%;
+    background-color: rgba(171, 255, 46, .4);
+    padding: 10px;
+    height: 15%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#messages {
+    width: 90%;
+    height: 15%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+.buttons {
+    align-self: center;
+}
+
+img {
+    display: inline-block;
+    height: 80%;
+    width: 10%;
+    margin: 10px;
 }

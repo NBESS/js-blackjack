@@ -38,6 +38,7 @@ img {
     width: 18%;
     margin: 10px;
     border-radius: 8px;
+    border: 1px;
 }
 
 label {
